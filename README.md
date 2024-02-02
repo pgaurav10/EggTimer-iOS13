@@ -1,27 +1,16 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Egg Timer
 
-## Our Goal
+![Egg-Timer](Documentation/Egg-Timer.gif)
 
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
+## Goal
 
-## What You'll Make
+The Egg Timer app is a user-friendly utility application designed to assist users in cooking eggs to their preferred level of doneness: soft, medium, or hard. Built using Swift, the app provides users with options to select their desired egg type and displays a countdown timer on a progress view. Upon completion of the timer, the app notifies users using AVFoundation to play a sound, signaling that the eggs are ready. Key features of the app include:
 
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
+## Egg Doneness Selection 
+The app offers users the choice to select their preferred level of egg doneness, including soft, medium, or hard. This customization ensures that users can cook their eggs to their exact preferences.
 
-## What you will learn
+## Countdown Timer Display 
+Upon selecting the desired egg type, the app initiates a countdown timer and displays it on a progress view. Users can monitor the progress of the timer visually, allowing them to gauge when their eggs will be ready.
 
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+## Notification with Alarm Sound: When the countdown timer reaches zero, the app notifies users using AVFoundation to play a sound. This audio cue signals that the cooking process is complete, ensuring that users do not forget about their eggs while they are cooking.
 
